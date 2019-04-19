@@ -12,12 +12,16 @@
             android:layout_width="wrap_content" android:layout_height="wrap_content">
         <Button
                 android:id="@+id/btn1"
-                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                android:onClick="onClick"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+        />
         <Button
                 android:id="@+id/btn2"
+                android:onClick="onClick"
                 android:layout_width="wrap_content" android:layout_height="wrap_content"/>
         <Button
                 android:id="@+id/btn3"
+                android:onClick="onClick"
                 android:layout_width="wrap_content" android:layout_height="wrap_content"/>
     </LinearLayout>
     <LinearLayout
@@ -25,12 +29,15 @@
             android:layout_width="wrap_content" android:layout_height="wrap_content">
         <Button
                 android:id="@+id/btn4"
+                android:onClick="onClick"
                 android:layout_width="wrap_content" android:layout_height="wrap_content"/>
         <Button
                 android:id="@+id/btn5"
+                android:onClick="onClick"
                 android:layout_width="wrap_content" android:layout_height="wrap_content"/>
         <Button
                 android:id="@+id/btn6"
+                android:onClick="onClick"
                 android:layout_width="wrap_content" android:layout_height="wrap_content"/>
     </LinearLayout>
     <LinearLayout
@@ -38,12 +45,31 @@
             android:layout_width="wrap_content" android:layout_height="wrap_content">
         <Button
                 android:id="@+id/btn7"
+                android:onClick="onClick"
                 android:layout_width="wrap_content" android:layout_height="wrap_content"/>
         <Button
                 android:id="@+id/btn8"
+                android:onClick="onClick"
                 android:layout_width="wrap_content" android:layout_height="wrap_content"/>
         <Button
                 android:id="@+id/btn9"
+                android:onClick="onClick"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Button
+                android:id="@+id/btn10"
+                android:onClick="onClick"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <Button
+                android:id="@+id/btn11"
+                android:onClick="onClick"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <Button
+                android:id="@+id/btn12"
+                android:onClick="onClick"
                 android:layout_width="wrap_content" android:layout_height="wrap_content"/>
     </LinearLayout>
 
